@@ -182,6 +182,12 @@ a.sidebar-nav-item:focus {
     font-weight: bold;
 }
 
+.highlight {
+    /*color: #FF6600;*/
+    color: #3B7EA1;
+    font-weight: bold;
+}
+
 .pub a {
     font-family: Arial, serif;
     font-weight: bold;
