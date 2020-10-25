@@ -285,3 +285,22 @@ a.sidebar-nav-item:focus {
         margin-right: auto;
     }
 }
+
+.tab-container {
+    display: table;
+    width: 100%;
+}
+
+.tab-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+@media only screen and (max-width: 600px) {
+    .tab-cell { 
+        display: block;
+        width: 100%;
+        vertical-align: middle;
+    }
+}
+
